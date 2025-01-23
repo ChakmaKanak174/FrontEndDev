@@ -1,7 +1,7 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*{
+    box-sizing: border-box; /*when adding margin and padding it doesnt affect actual sizes of the elements*/
+    margin: 0; /* takes away default margin and paddings */
+    padding: 0; /*Everythings reset */
 }
 
 :root {
@@ -10,15 +10,16 @@
     --dark-color: #111;
 }
 
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 16px; /* Poppins font added with white background color of the body */
     line-height: 1.5;
     background: #fff;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* takes away underlines */
     color: #333;
 }
 
@@ -27,9 +28,8 @@ ul {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; /*image added inside of a div with other widths will not break*/
 }
-
 
 /* Navbar */
 .navbar {
@@ -48,32 +48,43 @@ img {
 }
 
 .navbar ul li a {
-    padding: 10px 20px;
+    padding: 10px 20px; 
     display: block;
     font-weight: 600;
-    transition: .5s;
+    transition: 0.5s;
+
 }
 
 .navbar ul li a:hover {
     color: var(--primary-color);
 }
 
-/* Utility Classes */
+.navbar ul li a i{
+    margin-right: 10px;
+}
 
+.navbar ul li :last-child {
+    margin-left: 10px;
+}
+
+
+/* Utility Classes */
 .container {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto; /* 0 for top bottom auto for left right*/
     padding: 0 15px;
 }
 
-.container-sm {
+.container-sm {         /* there will be another container-sm class */
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto; /* 0 for top bottom auto for left right*/
     padding: 0 15px;
 }
 
-/* buttons */
-.btn {
+
+/*Buttons*/
+
+.btn {    /* for the small user icon in the btn class */
     display: inline-block;
     padding: 13px 20px;
     background: var(--light-color);
@@ -86,7 +97,7 @@ img {
     transition: 0.5s;
 }
 
-.btn:hover {
+.btn :hover {
     opacity: 0.8;
 }
 
@@ -99,3 +110,4 @@ img {
     background: var(--dark-color);
     color: #fff;
 }
+
