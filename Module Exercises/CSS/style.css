@@ -16,6 +16,7 @@ body {
     font-size: 16px; /* Poppins font added with white background color of the body */
     line-height: 1.5;
     background: #fff;
+    overflow-x: hidden;
 }
 
 a {
@@ -462,8 +463,54 @@ img {
         height: 770px; 
     }
 
+    .hero .hero-content,
+    .hero .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .hero-buttons .btn {
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    .testimonials .testimonials-heading {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .testimonials .testimonials-grid,
+    .pricing .pricing-grid,
+    .footer .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer .card {
+        margin-right: 0;
+    }
+
+    .footer .footer-grid > div {
+        text-align: center;
+    }
+
+    /* Text */
+    .text-xl {
+        font-size: 1.9rem;
+    }
+
+    .text-lg {
+        font-size: 1.5rem;
+    }
+
+    .text-md {
+        font-size: 1.1rem;
+    }
+
 }
 
 @media (max-width: 500px) {
-    
+    .text-xxl {
+        font-size: 2rem;
+    }
 }
