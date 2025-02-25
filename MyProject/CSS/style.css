@@ -70,23 +70,16 @@ img {
 
 /* hero */
 .hero {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     background: var(--light-color);
 }
 
 .hero .container {
-    background: var(--light-color);
+    background: url(../images/Hero\ Cropped.png) no-repeat;
     background-size: contain;
     background-position: center bottom;
-}
-
-.hero .hero-img {
-    /* background: url(../images/Hero.png) no-repeat; */
-    background-size: contain;
-    background-position: center bottom;
-    height: 550px;
-    margin-top: 20px;
-    background: var(--light-color);
+    height: 800px;
+    /* margin-top: 20px; */
 }
 
 
