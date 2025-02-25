@@ -15,7 +15,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background: #fff;
+    background: var(--light-color);
 }
 
 a {
@@ -34,7 +34,7 @@ img {
 
 /* Navbar*/
 .navbar {
-    background: #fff;
+    background: var(--light-color);
     padding: 20px;
 }
 
@@ -66,6 +66,65 @@ img {
 .navbar ul li i {
     margin-right: 5px;
 }
+
+
+/* hero */
+.hero {
+    margin-bottom: 10px;
+    background: var(--light-color);
+}
+
+.hero .container {
+    background: var(--light-color);
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.hero .hero-img {
+    /* background: url(../images/Hero.png) no-repeat; */
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+    margin-top: 20px;
+    background: var(--light-color);
+}
+
+
+
+.hero .hero-content {
+    width: 70%;
+}
+
+.hero .hero-text {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+
+/* Vdo content */
+
+.video {
+    padding: 10px 0 40px;
+}
+
+.video h2{
+    color: #fff;
+    padding-top: 10px;
+}
+
+.video-content {
+    padding: 10px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+
+
+
+
+
 
 /* utility classes */
 
@@ -105,6 +164,11 @@ img {
     color: #fff;
 }
 
+.btn-light {
+    background: #757272;
+    color: #fff;
+}
+
 .btn-dark {
     background: var(--dark-color);
     color: #fff;
@@ -118,4 +182,70 @@ img {
 .btn-block {
     display: block;
     width: 100%;
+}
+
+
+
+/* text classes */
+
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: .9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* background */
+
+.bg-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.bg-light {
+    background: var(--light-color);
+    color: #333;
+}
+
+.bg-dark {
+    background: var(--dark-color);
+    color: #fff;
+}
+
+.bg-semi-dark {
+    background: var(--semi-dark-color);
+    color: #fff;
 }
