@@ -114,10 +114,22 @@ img {
 }
 
 
+/* Testimonials */
 
+.testimonials-heading {
+    width: 700px;
+}
 
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
-
+.testimonials .card p:nth-child(2) {
+    margin-top: 30px;
+    font-weight: bold;
+}
 
 /* utility classes */
 
@@ -241,4 +253,14 @@ img {
 .bg-semi-dark {
     background: var(--semi-dark-color);
     color: #fff;
+}
+
+
+/* Card */
+
+.card {
+    background: var(--semi-dark-color);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
 }
