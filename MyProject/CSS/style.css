@@ -222,6 +222,53 @@ img {
 }
 
 
+/* Footer */
+
+.footer {
+    padding: 20px 0;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+}
+
+.footer ul li {
+    line-height: 2.5;
+}
+
+.footer ul li a {
+    color: #F8F7F2;
+}
+
+.footer i {
+    font-size: 1.8rem;
+}
+
+.footer .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .card {
+    margin: 20px;
+}
+
+.footer input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.footer .footer-grid i {
+    margin-left: 18px;
+}
+
+
 /* utility classes */
 
 .container {
