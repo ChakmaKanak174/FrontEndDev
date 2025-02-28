@@ -189,6 +189,37 @@ img {
     padding: 40px 0;
 }
 
+.faq .faq-group {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.faq .faq-group .faq-group-header {
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 15px;
+} 
+
+.faq .faq-group .faq-group-header h4 {
+    font-weight: 600;
+    width: 90%;
+}
+
+.faq .faq-group .faq-group-header i {
+    position: absolute;
+    right: 0;
+    top: 40px; 
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.faq .faq-group .faq-group-body {
+    display: none;
+}
+
+.faq .faq-group .faq-group-body.open {
+    display: block;
+}
 
 
 /* utility classes */
