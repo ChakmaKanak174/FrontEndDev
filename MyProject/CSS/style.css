@@ -16,6 +16,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     background: var(--light-color);
+    overflow-x: hidden;
 }
 
 a {
@@ -429,7 +430,6 @@ img {
     position: fixed;
     top: 0;
     right: -300px;
-    /* right: 0; */
     width: 250px;
     height: 100%;
     z-index: 100;
@@ -459,7 +459,9 @@ img {
 /* Media Queries */
 
 @media (max-width: 960px) {
-
+    .text-xxl {
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 670px) {
@@ -470,6 +472,38 @@ img {
     .hamburger-button {
         display: block;
     }
+
+    .hero .container {
+        background: url('../images/tempmobilee.png') no-repeat;
+        background-size: 380px 700px;
+        background-position: bottom;
+        height: 1070px;
+    }
+
+    .hero .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .hero-text {
+        width: 100%;
+    }
+
+    .hero .hero-buttons .btn{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .text-xl {
+        font-size: 1.7rem;
+    }
+
+    .testimonials .testimonials-heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    
 }
 
 @media (max-width: 500px) {
