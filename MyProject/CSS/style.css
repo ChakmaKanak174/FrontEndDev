@@ -253,7 +253,11 @@ img {
     grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 30px;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+}
+
+.footer .footer-grid .company, .footer .footer-grid .resources, .footer .footer-grid .contact {
+    padding-top: 140px;
 }
 
 .footer .card {
@@ -268,8 +272,12 @@ img {
     margin-bottom: 5px;
 }
 
-.footer .footer-grid i {
-    margin-left: 18px;
+.footer .footer-grid .first-grid {
+    text-align: center;
+}
+
+.footer .footer-grid a {
+    padding-right: 8px;
 }
 
 
@@ -498,14 +506,50 @@ img {
         font-size: 1.7rem;
     }
 
+    .text-lg {
+        font-size: 1.4rem;
+    }
+
+    .text-md {
+        font-size: 1rem;
+    }
+
     .testimonials .testimonials-heading {
         width: 100%;
         text-align: center;
     }
 
-    
+    .testimonials .testimonials-grid {
+        display: block;
+    }
+
+    .testimonials .testimonials-grid .card {
+        margin-bottom: 10px;
+    }
+
+    .pricing .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .faq .faq-content {
+        padding: 0 10px;
+    }
+
+    .footer .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    /* .footer .footer-grid  */
+
+    .footer .footer-grid .company, .footer .footer-grid .resources, .footer .footer-grid .contact {
+        padding-top: 0px;
+    }
+
 }
 
 @media (max-width: 500px) {
-    
+    .text-xxl {
+        font-size: 2rem;
+    }
 }
