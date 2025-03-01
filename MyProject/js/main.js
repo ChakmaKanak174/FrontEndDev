@@ -30,3 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
         
     });
 });
+
+
+// Mobile menu responsiveness
+
+document.addEventListener('DOMContentLoaded', () => {
+    const mobMenu = document.querySelector('.mobile-menu')
+    const hamButton = document.querySelector('.hamburger-button')
+
+    hamButton.addEventListener('click', () => mobMenu.classList.toggle('active'))
+});
