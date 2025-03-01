@@ -77,10 +77,10 @@ body {
     0% {
         opacity: 0;
     }
-    12.5% { /* 1/8 of 100% */
+    12.5% { 
         opacity: 1;
     }
-    25% { /* 1/4 of 100% */
+    25% { 
         opacity: 1;
     }
     37.5%{
@@ -91,7 +91,28 @@ body {
     }
 }
 
+/* Media queries */
 
+@media (max-width: 1100px) {
+    .slider {
+        /* height: 500px; */
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 960px) {
+    .slider {
+        height: 500px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 670px) {
+    .slider {
+        height: 350px;
+        margin-right: 30px;
+    }
+}
 
 
 
