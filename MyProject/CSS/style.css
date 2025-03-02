@@ -284,14 +284,24 @@ img {
 
 /* About us */
 
+.members {
+    background: var(--light-color);
+    background-size: contain;
+    padding-bottom: 20px;
+}
+
+
 .members .container .member-heading {
     text-align: center;
-    font-weight: 600px;
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    color: var(--semi-dark-color);
 }
 
 .members .container .image {
-    display: flex;
-    justify-content: start;
+    display: block;
+    justify-content: center;
     width: 100%;
     height: 250px;
 }
@@ -300,13 +310,33 @@ img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 10px solid;
+    border: 5px solid var(--semi-dark-color);
+}
+
+.members .members-grid .card {
+    text-align: center;
+    width: 250px;
+    background: var(--light-color);
+    color: #111;
+}
+
+.members .members-grid .card p:nth-child(2) {
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.members .members-grid .card p:nth-child(3) {
+    font-size: .9rem;
+    margin-bottom: 20px;
 }
 
 .members .members-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 /* utility classes */
@@ -502,7 +532,15 @@ img {
     .hero .container {
         height: 750px;
     }
+
+    .members .members-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
+/* @media (max-width: ) {
+
+} */
 
 @media (max-width: 670px) {
     .navbar .main-menu {
@@ -577,6 +615,13 @@ img {
     .footer .footer-grid .company, .footer .footer-grid .resources, .footer .footer-grid .contact {
         padding-top: 0px;
     }
+
+    /* about us */
+    .members .members-grid {
+        display: block;
+        margin-left: 170px;
+    }
+
 
 }
 
