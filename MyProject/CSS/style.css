@@ -622,6 +622,7 @@ img {
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
+        padding-right: 25px;
     }
 
 
