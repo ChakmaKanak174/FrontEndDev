@@ -535,6 +535,7 @@ img {
 
     .members .members-grid {
         grid-template-columns: 1fr 1fr;
+        place-items: center;
     }
 }
 
@@ -618,8 +619,9 @@ img {
 
     /* about us */
     .members .members-grid {
-        display: block;
-        margin-left: 170px;
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
     }
 
 
