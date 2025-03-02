@@ -1,0 +1,27 @@
+# Project Name: A simple Website for a wedding photography firm 
+
+## How to Run
+This project is a simple HTML, CSS, and JavaScript web application. You can run it directly in your web browser. Also make sure you have git installed. 
+
+1.  Open a terminal or command prompt
+    Navigate to the directory where you want to store the project. 
+    Run the git clone command.
+    **Clone the Repository:**
+    ```bash
+    git clone https://github.com/ChakmaKanak174/FrontEndDev.git
+    ```
+    This will create a new folder with the project's name in your current directory.
+
+2.  **Navigate to the Project Directory:**
+
+    ```bash
+    cd MyProject
+    ```
+
+3.  **Open `index.html` in Your Browser:**
+
+    Locate the `index.html` file in the project directory. Double-click it or right-click and select "Open with" and choose your preferred web browser (Chrome, Firefox, Safari, etc.).
+
+4.  **View the Project:**
+
+    The project should now be running in your browser. You can interact with it as intended.
