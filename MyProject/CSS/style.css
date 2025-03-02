@@ -281,6 +281,34 @@ img {
 }
 
 
+
+/* About us */
+
+.members .container .member-heading {
+    text-align: center;
+    font-weight: 600px;
+}
+
+.members .container .image {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 250px;
+}
+
+.members .members-grid img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid;
+}
+
+.members .members-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
 /* utility classes */
 
 .container {
