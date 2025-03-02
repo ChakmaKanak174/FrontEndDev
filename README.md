@@ -1,13 +1,12 @@
 # FrontEndDev
 This is the repository for the course Software Development Skills: Front-End
 
-<br>
-In your git repository there should be the following:
+- The module exercise folder contains the exercise that I have done before doing my project.
+- My project folder contains the project for the course Software Development Skills: Front-End.
+- The Leraning_Diary file contains all the learning elements that i've done during this journey.
+- The instruction on how to run the project is given in the instructions.txt file.
+- The link of the running project is also given at the bottom of this file.
 
-1. Your exercise materials
-2. Learning Diary
-3. Your Project
-4. ReadME how to run your project
-5. File including a link to a video of your project running
-<br>
+
+
 Author : Kanak Chakma
