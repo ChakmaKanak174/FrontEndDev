@@ -39,4 +39,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const hamButton = document.querySelector('.hamburger-button')
 
     hamButton.addEventListener('click', () => mobMenu.classList.toggle('active'))
+
+    document.addEventListener("click", (e) => {
+        
+        if (!hamButton.contains(e.target) && !mobMenu.contains(e.target))
+        {
+            mobMenu.classList.remove('active')
+        }
+        
+    });
+
+    
+
 });
