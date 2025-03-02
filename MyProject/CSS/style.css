@@ -622,7 +622,6 @@ img {
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
-        padding-right: 25px;
     }
 
 
@@ -631,5 +630,14 @@ img {
 @media (max-width: 500px) {
     .text-xxl {
         font-size: 2rem;
+    }
+    .members .members-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        padding-right: 50px;
+    }
+    .members .container .member-heading {
+        text-align: center;
     }
 }
